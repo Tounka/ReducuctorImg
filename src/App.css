@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+  background-color: var(--cafePrincipal);
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, .App, #root, body{
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
